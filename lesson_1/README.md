@@ -1,8 +1,8 @@
-# Lesson 1 - JavaScript შესავალი
+# გაკვეთილი 1 - JavaScript შესავალი
 
 ## მოკლე აღწერა
 
-ამ ლესონში გაეცნობით JavaScript-ის საფუძვლებს: როგორ გამოვიტანოთ ინფორმაცია კონსოლში, როგორ გამოვიყენოთ მარტივი ბრაუზერული მეთოდები და როგორ შევქმნათ ცვლადები.
+ამ გაკვეთილში გაეცნობით JavaScript-ის საფუძვლებს: როგორ გამოვიტანოთ ინფორმაცია კონსოლში, როგორ გამოვიყენოთ მარტივი ბრაუზერული მეთოდები და როგორ შევქმნათ ცვლადები.
 
 ## რას მოიცავს
 
@@ -22,7 +22,7 @@
 - მონაცემთა ტიპები: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 - არითმეტიკული ოპერატორები: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators
 
-## ფაილები ამ
+## ფაილები ამ გაკვეთილში
 
 - `index.html`
 - `index.js`

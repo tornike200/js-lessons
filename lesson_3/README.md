@@ -1,8 +1,8 @@
-# Lesson 3 - პირობები და ლოგიკა JavaScript-ში
+# გაკვეთილი 3 - პირობები და ლოგიკა JavaScript-ში
 
 ## მოკლე აღწერა
 
-ამ ლესონში სწავლობთ პირობით ოპერატორებს და ლოგიკურ გადაწყვეტილებებს. მთავარი ფოკუსია შედარებაზე, `if/else` კონსტრუქციებზე და ternary ოპერატორზე.
+ამ გაკვეთილში სწავლობთ პირობით ოპერატორებს და ლოგიკურ გადაწყვეტილებებს. მთავარი ფოკუსია შედარებაზე, `if/else` კონსტრუქციებზე და ternary ოპერატორზე.
 
 ## რას მოიცავს
 
@@ -23,7 +23,7 @@
 - ternary ოპერატორი: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 - ნაშთიანი გაყოფა (`%`) და პრაქტიკა: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
 
-## ფაილები
+## ფაილები ამ გაკვეთილში
 
 - `index.html`
 - `index.js`
