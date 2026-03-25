@@ -1,28 +1,28 @@
-# გაკვეთილი 2 - ცვლადები, ტიპები და მომხმარებლის შეყვანა
+# Lesson 2 - Variables, Types, and User Input
 
-## მოკლე აღწერა
+## Description
 
-ამ გაკვეთილში გაიმყარებთ საწყის უნარებს: ცვლადებთან მუშაობა, მონაცემთა ტიპების შემოწმება და მომხმარებლისგან მონაცემის მიღება `prompt()`-ით.
+In this lesson, you practice working with variables and data types. You learn how to check data types, join strings, and get information from the user using `prompt()`.
 
-## რას მოიცავს
+## Topics
 
-- `console.log()` პრაქტიკა
-- `alert()`, `confirm()`, `prompt()` შეხსენება
-- ცვლადების შექმნა და მნიშვნელობის შეცვლა
-- `typeof`-ით ტიპების შემოწმება
-- სტრინგების გაერთიანება (სახელი + გვარი)
-- `prompt()`-დან მიღებული ტექსტის რიცხვად გარდაქმნა
-- ორი შეყვანილი რიცხვის ჯამის გამოთვლა
+- Practice `console.log()`
+- Review `alert()`, `confirm()`, `prompt()`
+- Create variables and change their values
+- Check types with `typeof`
+- Join strings (name + last name)
+- Change text to number from `prompt()`
+- Add two numbers from user input
 
-## სასწავლო მასალები
+## Learning Materials
 
-- `prompt()` მეთოდი: https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
-- `alert()` მეთოდი: https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
-- `confirm()` მეთოდი: https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm
-- `typeof` ოპერატორი: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-- ტიპის გარდაქმნა `Number()`: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+- `prompt()` Method: https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
+- `alert()` Method: https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
+- `confirm()` Method: https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm
+- `typeof` Operator: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+- Type Change with `Number()`: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 
-## ფაილები ამ გაკვეთილში
+## Files in This Lesson
 
 - `index.html`
 - `index.js`

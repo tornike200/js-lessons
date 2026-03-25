@@ -1,74 +1,74 @@
-# JavaScript სავარჯიშოები
+# JavaScript Exercises
 
-შეასრულეთ ქვემოთ მოცემული დავალებები:
+Do the exercises below:
 
-1. console.log() გამოყენებით დაბეჭდეთ თქვენი საყვარელი პროგრამირების ენა.
-   მაგალითი: My favorite language is JavaScript
+1. Use console.log() to print your favorite programming language.
+   Example: My favorite language is JavaScript
 
-2. შექმენით ცვლადები:
-   let name და let age  
-   დაბეჭდეთ ერთ ხაზზე:
+2. Create variables:
+   let name and let age
+   Print in one line:
    My name is Luka and I am 20 years old
 
-3. alert() გამოყენებით გამოიტანეთ ტექსტი:
+3. Use alert() to print:
    Welcome to JavaScript course
 
-4. confirm() გამოყენებით ჰკითხეთ მომხმარებელს:
-   Do you want to continue learning JavaScript?  
-   მიღებული პასუხი (true/false) დაბეჭდეთ კონსოლში.
+4. Use confirm() to ask the user:
+   Do you want to continue learning JavaScript?
+   Print the answer (true/false) in the console.
 
-5. prompt() გამოყენებით მომხმარებელს შეაყვანინეთ ქალაქი და ქვეყანა.  
-   დაბეჭდეთ:
+5. Use prompt() to ask the user their city and country.
+   Print:
    You live in Tbilisi, Georgia
 
-6. prompt() გამოყენებით შეაყვანინეთ მომხმარებელს ორი რიცხვი.  
-   გამოიტანეთ:
-   მათი ჯამი  
-   მათი საშუალო (average)
+6. Use prompt() to ask the user for two numbers.
+   Print:
+   Their sum
+   Their average (average)
 
-7. მომხმარებელს შეაყვანინეთ ასაკი (prompt).  
-   გადააკეთეთ Number ტიპად და შეამოწმეთ:
-   თუ >= 18 → You are an adult  
-   სხვა შემთხვევაში → You are a minor
+7. Ask the user their age with prompt().
+   Change it to Number type and check:
+   If >= 18 → You are an adult
+   Otherwise → You are a minor
 
-8. შექმენით ცვლადი:
-   let password = "12345"  
-   შეამოწმეთ:
-   თუ სიგრძე ნაკლებია 6-ზე → Weak password  
-   სხვა შემთხვევაში → Strong password
+8. Create a variable:
+   let password = "12345"
+   Check:
+   If length < 6 → Weak password
+   Otherwise → Strong password
 
-9. შექმენით ცვლადები:
-   let a = 10  
-   let b = 20  
-   გადაუნაცვლეთ მნიშვნელობები ისე, რომ გამოიყენოთ მესამე ცვლადი (temp).
+9. Create variables:
+   let a = 10
+   let b = 20
+   Swap their values using a third variable (temp).
 
-10. prompt() გამოყენებით მომხმარებელს შეაყვანინეთ რიცხვი.  
-    შეამოწმეთ:
-    - იყოფა თუ არა 3-ზე
-    - იყოფა თუ არა 5-ზე
+10. Use prompt() to ask the user for a number.
+    Check:
+    - Is it divisible by 3?
+    - Is it divisible by 5?
 
-    შედეგები დაბეჭდეთ:
-    Divisible by 3  
+    Print:
+    Divisible by 3
     Divisible by 5
 
-11. შექმენით ცვლადი:
-    let number = 7  
-    დაბეჭდეთ მისი კვადრატი და კუბი.
+11. Create a variable:
+    let number = 7
+    Print its square and cube.
 
-12. prompt() გამოყენებით მომხმარებელს შეაყვანინეთ სახელი.  
-    დაბეჭდეთ:
-    მისი სახელის სიგრძე (length)
+12. Use prompt() to ask the user their name.
+    Print:
+    Their name length (length)
 
-13. შექმენით ცვლადი:
-    let text = "JavaScript"  
-    დაბეჭდეთ:
-    - პირველი სიმბოლო
-    - ბოლო სიმბოლო
+13. Create a variable:
+    let text = "JavaScript"
+    Print:
+    - First character
+    - Last character
 
-14. prompt() გამოყენებით მომხმარებელს შეაყვანინეთ წელი.  
-    გამოიტანეთ:
-    ეს წელი ლუწია თუ კენტი.
+14. Use prompt() to ask the user for a year.
+    Print:
+    Is this year even or odd?
 
-15. შექმენით სამი რიცხვი:
-    let x = 5, y = 10, z = 15  
-    იპოვეთ და დაბეჭდეთ ყველაზე დიდი რიცხვი.
+15. Create three numbers:
+    let x = 5, y = 10, z = 15
+    Find and print the biggest number.

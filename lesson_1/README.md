@@ -1,28 +1,28 @@
-# გაკვეთილი 1 - JavaScript შესავალი
+# Lesson 1 - Introduction to JavaScript
 
-## მოკლე აღწერა
+## Description
 
-ამ გაკვეთილში გაეცნობით JavaScript-ის საფუძვლებს: როგორ გამოვიტანოთ ინფორმაცია კონსოლში, როგორ გამოვიყენოთ მარტივი ბრაუზერული მეთოდები და როგორ შევქმნათ ცვლადები.
+In this lesson, you learn the basics of JavaScript. You learn how to print text to the console, how to use simple browser methods, and how to create variables.
 
-## რას მოიცავს
+## Topics
 
-- `console.log()`-ით შედეგის გამოტანა
-- `alert()`, `confirm()`, `prompt()` მეთოდების გამოყენება
-- ცვლადები: `let`, `var`, `const`
-- მონაცემთა ტიპები: `string`, `number`, `boolean`
-- მათემატიკური ოპერატორები: `+`, `-`, `*`, `/`, `%`, `**`
-- სტრინგების გაერთიანება (concatenation)
-- `prompt()`-ით მიღებული ტექსტის გადაყვანა რიცხვად (`Number`, `+`)
+- Print text with `console.log()`
+- Use methods: `alert()`, `confirm()`, `prompt()`
+- Variables: `let`, `var`, `const`
+- Data types: `string`, `number`, `boolean`
+- Math operators: `+`, `-`, `*`, `/`, `%`, `**`
+- String concatenation
+- Change text to number with `Number()` or `+`
 
-## სასწავლო მასალები
+## Learning Materials
 
-- JavaScript პირველი ნაბიჯები (MDN): https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
-- `console.log()` დოკუმენტაცია: https://developer.mozilla.org/en-US/docs/Web/API/console/log_static
-- ცვლადები (`let`, `const`, `var`): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations
-- მონაცემთა ტიპები: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
-- არითმეტიკული ოპერატორები: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators
+- JavaScript First Steps (MDN): https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+- `console.log()` Documentation: https://developer.mozilla.org/en-US/docs/Web/API/console/log_static
+- Variables (`let`, `const`, `var`): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations
+- Data Types: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+- Arithmetic Operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators
 
-## ფაილები ამ გაკვეთილში
+## Files in This Lesson
 
 - `index.html`
 - `index.js`

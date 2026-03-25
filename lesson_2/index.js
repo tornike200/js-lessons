@@ -1,33 +1,33 @@
-// კონსოლში ტექსტის გამოტანა
+// Print text to the console
 console.log("Hello, JavaScript");
 
-// alert / confirm / prompt მაგალითები
-// alert("I am Robot"); // აჩვენებს შეტყობინებას
-// confirm("Are you Student?"); // აბრუნებს true ან false
-// prompt("How old are you?"); // მომხმარებლისგან ინფორმაციის მიღება
+// alert / confirm / prompt examples
+// alert("I am Robot"); // shows a message
+// confirm("Are you Student?"); // returns true or false
+// prompt("How old are you?"); // get information from user
 
-// ცვლადები (Variables)
+// Variables
 
-// let - მნიშვნელობა შეიძლება შეიცვალოს
+// let - value can change
 let firstName = "Tamar";
 console.log(firstName);
 
-// მნიშვნელობის შეცვლა
+// Change value
 firstName = "Giorgi";
 console.log(firstName);
 
-// რიცხვითი ცვლადი
+// Number variable
 let age = 32;
 console.log(age);
 
-// var - ძველი ტიპი (სასურველია არ გამოვიყენოთ)
+// var - old type (we don't use it)
 var lastName = "Grigolia";
 
-// const - მუდმივი ცვლადი (ვერ შევცვლით)
+// const - constant variable (cannot change)
 const id = "60001128233";
-// id = "33345656"; // შეცდომა
+// id = "33345656"; // error
 
-// მონაცემთა ტიპები (Data Types)
+// Data Types
 let year = 2026;
 console.log(typeof year); // number
 
@@ -38,38 +38,38 @@ let isStudent = true;
 console.log(typeof isStudent); // boolean
 console.log(isStudent);
 
-// მათემატიკური ოპერაციები
-console.log(12 + 3); // მიმატება
-console.log(321 - 1); // გამოკლება
-console.log(7 * 8); // გამრავლება
-console.log(30 / 5); // გაყოფა
-console.log(11 % 2); // ნაშთი
-console.log(2 ** 3); // ხარისხი
+// Math operations
+console.log(12 + 3); // addition
+console.log(321 - 1); // subtraction
+console.log(7 * 8); // multiplication
+console.log(30 / 5); // division
+console.log(11 % 2); // remainder
+console.log(2 ** 3); // power
 
-// სტრინგების გაერთიანება
+// String concatenation (join strings)
 let userName = "name";
 let userSurname = "surname";
 
-// space დამატებულია სწორად
+// add space correctly
 let fullName = userName + " " + userSurname;
 console.log(fullName);
 
-// prompt() - მომხმარებლისგან მონაცემის მიღება
-let sName = prompt("ჩაწერეთ თქვენი სახელი:");
+// prompt() - get information from user
+let sName = prompt("Write your name:");
 console.log(sName);
 
-// ასაკის მიღება
-let sAge = prompt("ჩაწერეთ თქვენი ასაკი");
+// Get age
+let sAge = prompt("Write your age");
 
-// string -> number გარდაქმნა
+// Change string to number
 let numberAge = Number(sAge);
 console.log(numberAge);
 
-// ორი რიცხვის შეყვანა და მათი ჯამი
-let num1 = prompt("შეიყვანეთ პირველი რიცხვი:");
-let num2 = prompt("შეიყვანეთ მეორე რიცხვი:");
+// Get two numbers and add them
+let num1 = prompt("Enter first number:");
+let num2 = prompt("Enter second number:");
 
-// prompt აბრუნებს string-ს, ამიტომ ვიყენებთ Number()
+// prompt returns string, so we use Number()
 let sum = Number(num1) + Number(num2);
 
-console.log("ჯამი არის: " + sum);
+console.log("Sum is: " + sum);

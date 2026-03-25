@@ -1,29 +1,29 @@
-# გაკვეთილი 3 - პირობები და ლოგიკა JavaScript-ში
+# Lesson 3 - Conditions and Logic in JavaScript
 
-## მოკლე აღწერა
+## Description
 
-ამ გაკვეთილში სწავლობთ პირობით ოპერატორებს და ლოგიკურ გადაწყვეტილებებს. მთავარი ფოკუსია შედარებაზე, `if/else` კონსტრუქციებზე და ternary ოპერატორზე.
+In this lesson, you learn conditional operators and logical decisions. The main focus is on comparison, `if/else` statements, and the ternary operator.
 
-## რას მოიცავს
+## Topics
 
-- შედარების ოპერატორები: `>`, `<`, `>=`, `<=`, `==`, `===`, `!=`, `!==`
-- `if`, `else if`, `else` კონსტრუქციები
-- ლოგიკური ოპერატორები: `&&`, `||`, `!`
-- ლუწი/კენტი რიცხვის შემოწმება (`%`)
-- `prompt()`-ით მიღებულ მონაცემზე პირობების აგება
-- ტერნერი ოპერატორი: `condition ? value1 : value2`
-- რამდენიმე მნიშვნელობიდან უდიდესის პოვნა
-- ფასდაკლების ლოგიკის დაწერა დიაპაზონებით
+- Comparison operators: `>`, `<`, `>=`, `<=`, `==`, `===`, `!=`, `!==`
+- `if`, `else if`, `else` statements
+- Logical operators: `&&`, `||`, `!`
+- Check even/odd numbers (`%`)
+- Make conditions with data from `prompt()`
+- Ternary operator: `condition ? value1 : value2`
+- Find the biggest from many numbers
+- Write logic for discounts by size
 
-## სასწავლო მასალები
+## Learning Materials
 
-- შედარების ოპერატორები: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#comparison_operators
-- ლოგიკური ოპერატორები: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#logical_operators
-- `if...else` დოკუმენტაცია: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
-- ternary ოპერატორი: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
-- ნაშთიანი გაყოფა (`%`) და პრაქტიკა: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
+- Comparison Operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#comparison_operators
+- Logical Operators: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#logical_operators
+- `if...else` Documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+- Ternary Operator: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+- Modulo (`%`) and Practice: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
 
-## ფაილები ამ გაკვეთილში
+## Files in This Lesson
 
 - `index.html`
 - `index.js`

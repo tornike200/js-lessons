@@ -1,22 +1,22 @@
-# JavaScript სავარჯიშოები
+# JavaScript Exercises
 
-## დავალება 1
+## Exercise 1
 
-დაბეჭდეთ კონსოლში ტექსტი:
+Print text in the console:
 
 ```
 Hello Student
 ```
 
-გამოიყენეთ `console.log()`.
+Use `console.log()`.
 
 ---
 
-## დავალება 2
+## Exercise 2
 
-შექმენით ცვლადი სახელად `studentName`, მიანიჭეთ თქვენი სახელი და დაბეჭდეთ კონსოლში.
+Create a variable `studentName`, give it your name, and print it in the console.
 
-მაგალითი შედეგი:
+Example result:
 
 ```
 Student name is Luka
@@ -24,41 +24,41 @@ Student name is Luka
 
 ---
 
-## დავალება 3
+## Exercise 3
 
-შექმენით `const` ცვლადი სახელად `academy` და მიანიჭეთ მნიშვნელობა:
+Create a `const` variable `academy` and give it the value:
 
 ```
 ITVET
 ```
 
-დაბეჭდეთ `alert()` დახმარებით.
+Print it with `alert()`.
 
 ---
 
-## დავალება 4
+## Exercise 4
 
-`prompt()` დახმარებით ჰკითხეთ მომხმარებელს:
+Use `prompt()` to ask the user:
 
 ```
 What is your favorite city?
 ```
 
-შემდეგ `console.log()`-ში დაბეჭდეთ:
+Then print in `console.log()`:
 
 ```
 Your favorite city is: Paris
 ```
 
-(ქალაქის მაგივრად მომხმარებლის პასუხი)
+(Use the user's answer instead of the city name)
 
 ---
 
-## დავალება 5
+## Exercise 5
 
-`prompt()` გამოყენებით ჰკითხეთ მომხმარებელს მისი ასაკი.
+Use `prompt()` to ask the user their age.
 
-გამოიტანეთ `alert()`-ში:
+Print in `alert()`:
 
 ```
 You are X years old
@@ -66,57 +66,57 @@ You are X years old
 
 ---
 
-## დავალება 6
+## Exercise 6
 
-შექმენით ორი ცვლადი:
+Create two variables:
 
 ```
 let num1 = 10
 let num2 = 5
 ```
 
-კონსოლში დაბეჭდეთ:
+Print in the console:
 
-- მათი ჯამი
-- სხვაობა
-- ნამრავლი
-- განაყოფი
+- Their sum
+- Their difference
+- Their product
+- Their division
 
 ---
 
-## დავალება 7
+## Exercise 7
 
-`prompt()` გამოყენებით მომხმარებელს შეაყვანინეთ ორი რიცხვი.
+Use `prompt()` to ask the user to enter two numbers.
 
-მათი ჯამი გამოიტანეთ კონსოლში.
+Print their sum in the console.
 
-⚠️ მინიშნება: გამოიყენეთ
+⚠️ Hint: Use
 
 ```
 Number()
 ```
 
-ან
+or
 
 ```
 +
 ```
 
-რათა სტრინგი გადაიყვანოთ რიცხვად.
+to change text to a number.
 
 ---
 
-## დავალება 8
+## Exercise 8
 
-შექმენით ცვლადი:
+Create a variable:
 
 ```
 let isStudent = true
 ```
 
-კონსოლში დაბეჭდეთ მისი ტიპი `typeof` გამოყენებით.
+Print its type in the console with `typeof`.
 
-მოსალოდნელი შედეგი:
+Expected result:
 
 ```
 boolean
@@ -124,31 +124,31 @@ boolean
 
 ---
 
-## დავალება 9
+## Exercise 9
 
-`confirm()` გამოყენებით ჰკითხეთ მომხმარებელს:
+Use `confirm()` to ask the user:
 
 ```
 Do you like JavaScript?
 ```
 
-შედეგი (true ან false) დაბეჭდეთ კონსოლში.
+Print the result (true or false) in the console.
 
 ---
 
-## დავალება 10 (ლოგიკური + მათემატიკა)
+## Exercise 10 (Logic + Math)
 
-მომხმარებელს `prompt()`-ით შეაყვანინეთ დაბადების წელი.
+Use `prompt()` to ask the user their birth year.
 
-გამოთვალეთ რამდენი წლის არის 2026 წელს.
+Calculate their age in 2026.
 
-მაგალითი:
+Example:
 
 ```
 Enter your birth year: 2000
 ```
 
-შედეგი:
+Result:
 
 ```
 You are 26 years old
