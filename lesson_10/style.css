@@ -40,6 +40,20 @@
   align-items: end;
 }
 
+.showBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#close {
+  cursor: pointer;
+}
+
 .hidden {
   display: none;
 }
