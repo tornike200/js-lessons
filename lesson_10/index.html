@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        color: #37474f;
+        background: linear-gradient(
+          90deg,
+          rgba(42, 123, 155, 1) 0%,
+          rgba(87, 199, 133, 1) 50%,
+          rgba(237, 221, 83, 1) 100%
+        );
+
+        h2 {
+          font-size: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>HTML Document Object Model</h2>
+
+    <div>
+      <p id="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quidem!</p>
+
+      <p class="para2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum veniam
+        reiciendis itaque inventore excepturi!
+      </p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptatibus sint,
+        necessitatibus quis consequuntur cupiditate aut. Minima dolorem cupiditate tempora!
+      </p>
+
+      <p class="testClass2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et reiciendis vero dolor laborum
+        mollitia quia explicabo natus, voluptate nam ut ad distinctio animi! Dignissimos eligendi
+        asperiores, eos illum id sapiente?
+      </p>
+
+      <button id="btn1">Change bg color</button>
+
+      <h2 id="title">This is title 2</h2>
+
+      <div>
+        <button id="hideAndShowBtn">hide and show titile</button>
+      </div>
+    </div>
+
+    <div class="modal hidden">
+      <div id="box">
+        <span id="close">❌</span>
+      </div>
+    </div>
+
+    <button class="showBtn">show modal</button>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
