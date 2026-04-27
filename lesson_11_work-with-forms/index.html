@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form autocomplete="off" id="register-form">
+      <div>
+        <label for="firstName"> name: </label>
+        <input type="text" id="firstName" />
+        <p class="hidden errors"></p>
+      </div>
+      <br />
+      <div>
+        <label for="lastName">surname: </label>
+        <input type="text" id="lastName" />
+        <p class="hidden errors"></p>
+      </div>
+      <br />
+
+      <div>
+        <label for="email">email: </label>
+        <input type="text" id="email" />
+        <p class="hidden errors"></p>
+      </div>
+      <br />
+      <div>
+        <button type="submit">submit</button>
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
