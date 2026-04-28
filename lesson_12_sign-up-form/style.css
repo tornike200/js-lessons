@@ -87,8 +87,7 @@ form {
 
 .error {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 12px;
   right: 18px;
 }
 
@@ -99,6 +98,7 @@ input {
   max-width: 279px;
   width: 100%;
   outline: none;
+  margin-bottom: 6px;
 }
 
 ::placeholder {
@@ -135,6 +135,14 @@ input {
     font-weight: 700;
     text-decoration: none;
   }
+}
+
+.red-border {
+  border-color: #ff7979;
+}
+
+.red-border::placeholder {
+  color: #ff7979;
 }
 
 .hidden {
