@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+.post {
+  background-color: rgb(231, 165, 165);
+  padding: 5px;
+  margin-bottom: 10px;
+}
