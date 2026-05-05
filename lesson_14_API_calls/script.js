@@ -17,6 +17,36 @@ async function getPosts() {
   }
 }
 
+const newPost = {
+  userId: 200,
+  title: "new post",
+  body: "this is a new post",
+};
+
+async function createPost() {
+  try {
+    const respons = await fetch("https://jsonplaceholder.typicode.com/posts", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(newPost),
+    });
+
+    if (!respons.ok) {
+      throw new Error("Cant craete new post");
+    }
+
+    let newData = await respons.json();
+
+    console.log(newData);
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+createPost();
+
 async function displayPosts() {
   const posts = await getPosts();
 
@@ -41,6 +71,4 @@ async function displayPosts() {
   document.querySelector(".container").innerHTML = finalString;
 }
 
-displayPosts();
-
-
+// displayPosts();
