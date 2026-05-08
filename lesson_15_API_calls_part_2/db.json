@@ -29,6 +29,18 @@
       "name": "giorgi",
       "surname": "gachechiladze",
       "email": "test@gmail.com"
+    },
+    {
+      "id": "ab05e340-de41-4480-a6a0-3f8951ea69a8",
+      "name": "თევდორე",
+      "surname": "ხინთიბიძე",
+      "email": "tevdore@gmail.com"
+    },
+    {
+      "id": "d19cf276-ad21-46a2-8479-ecfa43123d37",
+      "name": "ზაზა",
+      "surname": "მანაგაძე",
+      "email": "zaza@gmail.com"
     }
   ]
 }

@@ -1,33 +1,6 @@
-const URL = "http://localhost:3000/users";
+import { createUser, getAllUsers } from "./api.js";
 
-async function getAllUsers() {
-  const response = await fetch(URL, { method: "GET" });
-
-  const data = await response.json();
-
-  console.log(data);
-}
-
-getAllUsers();
-
-async function getUserById(id) {
-  const response = await fetch(`${URL}/${id}`, { method: "GET" });
-
-  const data = await response.json();
-
-  console.log(data);
-}
-
-// getUserById(2);
-
-async function createUser(user) {
-  const respose = await fetch(URL, {
-    method: "POST",
-    headers: { "Content-type": "application/json" },
-    body: JSON.stringify(user),
-  });
-}
-
+// create new user
 document.querySelector("#registration").addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -55,3 +28,23 @@ document.querySelector("#registration").addEventListener("submit", (e) => {
 
   e.target.reset();
 });
+
+async function renderUsers() {
+  const users = await getAllUsers();
+
+  const finalString = users
+    .map((user) => {
+      return `
+       <div class="card">
+        <h2>${user.name}</h2>
+        <h2>${user.surname}</h2>
+        <h2>${user.email}</h2>
+      </div>
+      <hr />`;
+    })
+    .join("");
+
+  document.querySelector(".container").innerHTML = finalString;
+}
+
+renderUsers();
