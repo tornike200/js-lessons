@@ -1,28 +1,10 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "nikolozi",
-      "surname": "tsikhelishvili",
-      "email": "nikoloz@gmail.ge"
-    },
-    {
       "id": "2",
       "name": "george",
       "surname": "gurgenidze",
       "email": "george@gmail.com"
-    },
-    {
-      "id": "0c04ee72-b2ed-405f-a24b-ee24570b6b0b",
-      "name": "tornike",
-      "surname": "kapanadze",
-      "email": "tornikek3@gmail.com"
-    },
-    {
-      "id": "7ca75953-a3c3-4a8d-80be-82066c4a559e",
-      "name": "",
-      "surname": "",
-      "email": ""
     },
     {
       "id": "ce6ceb1b-a6aa-4c3e-ab79-0cc5eb61840f",
@@ -31,16 +13,10 @@
       "email": "test@gmail.com"
     },
     {
-      "id": "ab05e340-de41-4480-a6a0-3f8951ea69a8",
-      "name": "თევდორე",
-      "surname": "ხინთიბიძე",
-      "email": "tevdore@gmail.com"
-    },
-    {
-      "id": "d19cf276-ad21-46a2-8479-ecfa43123d37",
-      "name": "ზაზა",
-      "surname": "მანაგაძე",
-      "email": "zaza@gmail.com"
+      "id": "b21df50b-36c1-4dfa-8cc6-27581d2cc0eb",
+      "name": "თამარ",
+      "surname": "დათეშიძე",
+      "email": "tdateshidze@gmail.com"
     }
   ]
 }

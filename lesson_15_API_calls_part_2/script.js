@@ -36,12 +36,12 @@ async function renderUsers() {
     .map((user) => {
       return `
        <div class="card">
-        <h2>${user.name}</h2>
-        <h2>${user.surname}</h2>
-        <h2>${user.email}</h2>
+        <h2><span>name:</span> ${user.name}</h2>
+        <h2><span>surname:</span> ${user.surname}</h2>
+        <h2><span>email:</span> ${user.email}</h2>
         <button class="deleteBtn" id="${user.id}"> delete user </button>
       </div>
-      <hr />`;
+    `;
     })
     .join("");
 
@@ -50,6 +50,17 @@ async function renderUsers() {
 
 renderUsers();
 
-const deleteButtons = document.querySelector(".deleteBtn");
+const containerElem = document.querySelector(".container");
 
-console.log(deleteButtons);
+containerElem.addEventListener("click", (e) => {
+  const button = e.target.classList.contains("deleteBtn");
+
+  if (button) {
+    const confirmed = confirm("are you sure you want to delete this user ?");
+
+    if (confirmed) {
+      const id = e.target.id;
+      deleteUser(id);
+    }
+  }
+});
