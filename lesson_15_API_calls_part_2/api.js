@@ -26,3 +26,11 @@ export async function createUser(user) {
   const data = await respose.json();
   return data;
 }
+
+export async function deleteUser(id) {
+  const response = await fetch(`${URL}/${id}`, { method: "DELETE" });
+
+  const data = await response.json();
+
+  return data;
+}

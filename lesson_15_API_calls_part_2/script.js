@@ -1,4 +1,4 @@
-import { createUser, getAllUsers } from "./api.js";
+import { createUser, getAllUsers, deleteUser } from "./api.js";
 
 // create new user
 document.querySelector("#registration").addEventListener("submit", (e) => {
@@ -39,6 +39,7 @@ async function renderUsers() {
         <h2>${user.name}</h2>
         <h2>${user.surname}</h2>
         <h2>${user.email}</h2>
+        <button class="deleteBtn" id="${user.id}"> delete user </button>
       </div>
       <hr />`;
     })
@@ -48,3 +49,7 @@ async function renderUsers() {
 }
 
 renderUsers();
+
+const deleteButtons = document.querySelector(".deleteBtn");
+
+console.log(deleteButtons);
