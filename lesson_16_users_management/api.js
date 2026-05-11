@@ -21,3 +21,12 @@ export async function getAllUsers() {
 
   return data;
 }
+
+// delete user
+export async function deleteUser(id) {
+  const response = await fetch(`${URL}/${id}`, { method: "DELETE" });
+
+  const result = await response.json();
+
+  console.log(result);
+}
