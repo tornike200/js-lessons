@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h2>users form</h2>
+      <form id="userForm">
+        <div>
+          <label for="name">name</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="surname">surname</label>
+          <input type="text" id="surname" />
+        </div>
+        <div>
+          <label for="email">email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="userId">id</label>
+          <input type="text" id="userId" />
+        </div>
+
+        <button type="submit">submit</button>
+      </form>
+    </section>
+
+    <table>
+      <thead>
+        <th>name</th>
+        <th>suname</th>
+        <th>email</th>
+        <th>id</th>
+        <th>controls</th>
+      </thead>
+      <tr>
+        <td>tornike</td>
+        <td>kapanadze</td>
+        <td>tornike.kapanadz@gmail.com</td>
+        <td>60007765438</td>
+        <td>delete/update</td>
+      </tr>
+    </table>
+
+    <script src="./script.js" type="module"></script>
+    <script src="./api.js" type="module"></script>
+  </body>
+</html>
