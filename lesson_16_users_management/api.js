@@ -12,3 +12,12 @@ export async function createUser(user) {
 
   console.log(result);
 }
+
+// get all users
+export async function getAllUsers() {
+  const response = await fetch(URL, { method: "GET" });
+
+  const data = await response.json();
+
+  return data;
+}
