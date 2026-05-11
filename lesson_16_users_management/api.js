@@ -30,3 +30,25 @@ export async function deleteUser(id) {
 
   console.log(result);
 }
+
+// edit user
+export async function editUser(user, id) {
+  const response = await fetch(`${URL}/${id}`, {
+    method: "PUT",
+    headers: { "Content-type": "application/json" },
+    body: JSON.stringify(user),
+  });
+
+  const result = await response.json();
+
+  console.log(result);
+}
+
+// get user by id
+export async function getUserById(id) {
+  const response = await fetch(`${URL}/${id}`, { method: "GET" });
+
+  const data = await response.json();
+
+  return data;
+}

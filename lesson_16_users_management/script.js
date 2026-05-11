@@ -52,4 +52,9 @@ document.querySelector("table").addEventListener("click", (e) => {
   if (e.target.classList.contains("deleteBtn")) {
     confirm("ნამდვილად გსურთ იუზერის წაშლა ?") && deleteUser(e.target.id);
   }
+
+  if (e.target.classList.contains("editBtn")) {
+    window.localStorage.setItem("id", e.target.id);
+    window.location = "./edit.html";
+  }
 });
