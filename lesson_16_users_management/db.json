@@ -1,18 +1,18 @@
 {
   "users": [
     {
-      "id": "9ed5884e-4dbd-4c64-828c-bece333b56d2",
-      "name": "tornike",
-      "surname": "kapanadze",
-      "email": "tornike.kapanadze@itvet.ge",
-      "userId": "60003348466"
+      "name": "George",
+      "surname": "Kapanadze",
+      "email": "george.kapanadze@itvet.ge",
+      "userId": "60003348466",
+      "id": "9ed5884e-4dbd-4c64-828c-bece333b56d2"
     },
     {
-      "id": "74b32b01-927b-4c2c-9fca-9a0cc3f0fb82",
-      "name": "test",
-      "surname": "test",
-      "email": "test@gmail.com",
-      "userId": "8787887878787"
+      "name": "zaza",
+      "surname": "nozadze",
+      "email": "zaza@gmail.com",
+      "userId": "111111111",
+      "id": "74b32b01-927b-4c2c-9fca-9a0cc3f0fb82"
     }
   ]
 }

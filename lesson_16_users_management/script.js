@@ -1,6 +1,7 @@
 import { createUser, getAllUsers, deleteUser } from "./api.js";
 
 document.querySelector("#userForm").addEventListener("submit", (e) => {
+  e.preventDefault();
   const name = document.querySelector("#name").value;
   const surname = document.querySelector("#surname").value;
   const email = document.querySelector("#email").value;
