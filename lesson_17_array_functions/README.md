@@ -3,7 +3,7 @@
 ## Description
 
 In this lesson, students learn how to use array functions to manipulate and transform arrays.
-They will work with methods like `filter()`, `map()`, `reduce()`, `find()`, and other array functions.
+They will work with methods like `filter()`, `map()`, `reduce()`, `find()`, `some()`, `every()`, `includes()`, and other practical array methods.
 
 ## Topics
 
@@ -16,6 +16,8 @@ They will work with methods like `filter()`, `map()`, `reduce()`, `find()`, and 
 - `some()` - checking if at least one element matches a condition
 - `every()` - checking if all elements match a condition
 - `includes()` - checking if an array contains a specific element
+- `sort()` - sorting array values
+- `slice()` and `splice()` - copying and modifying array parts
 - Chaining array methods
 
 ## Learning Materials
@@ -25,3 +27,8 @@ They will work with methods like `filter()`, `map()`, `reduce()`, `find()`, and 
 - map() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 - reduce() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 - find() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+- some() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+- every() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+- includes() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+- findIndex() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+- forEach() (MDN): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach

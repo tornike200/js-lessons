@@ -80,3 +80,30 @@ console.log(adminCount);
 const wantedUser = users.find((user) => user.name == "Mzia");
 
 console.log(wantedUser);
+
+const testScores = [40, 72, 55, 90];
+const hasHighScore = testScores.some((score) => score > 85);
+
+console.log(hasHighScore);
+
+const ages = [19, 25, 31, 18];
+const allAdults = ages.every((age) => age >= 18);
+
+console.log(allAdults);
+
+const cities = ["Tbilisi", "Batumi", "Kutaisi"];
+const hasBatumi = cities.includes("Batumi");
+
+console.log(hasBatumi);
+
+const numbers4 = [12, 15, 8, 20, 3];
+const firstSmallIndex = numbers4.findIndex((num) => num < 10);
+
+console.log(firstSmallIndex);
+
+const chainedResult = numbers4
+  .filter((num) => num > 10)
+  .map((num) => num * 2)
+  .reduce((acc, num) => acc + num, 0);
+
+console.log(chainedResult);

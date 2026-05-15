@@ -43,3 +43,27 @@ Complete all tasks in class. Use `console.log()` for outputs.
 10. Use `findIndex()` to find the position of a specific value in an array.
 
 ---
+
+11. Create an array of exam scores and use `some()` to check if at least one student scored above 90.
+
+---
+
+12. Create an array of user ages and use `every()` to check if all users are adults.
+
+---
+
+13. Create an array of strings and use `includes()` to check if a specific word exists.
+
+---
+
+14. Create an array of prices and use `findIndex()` to find the first price below 20.
+
+---
+
+15. Create an array of numbers and chain `filter()`, `map()`, and `reduce()` to calculate a final total.
+
+---
+
+16. Create an array of numbers, sort it in ascending order, and then use `slice()` to get the top 3 largest numbers.
+
+---

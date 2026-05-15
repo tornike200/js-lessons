@@ -43,3 +43,27 @@ Complete all tasks at home. These are slightly harder than class tasks.
 10. Create a function that takes an array and returns a new array with only unique values using `filter()`.
 
 ---
+
+11. Create an array of scores and use `some()` to check if any score is 100.
+
+---
+
+12. Create an array of passwords and use `every()` to check if all passwords have at least 8 characters.
+
+---
+
+13. Create an array of categories and use `includes()` to check if `"electronics"` exists.
+
+---
+
+14. Create an array of numbers and use `findIndex()` to find the first negative value.
+
+---
+
+15. Create an array of cart item objects with `title`, `price`, and `quantity`. Use method chaining to calculate the total cart cost.
+
+---
+
+16. Create an array of numbers and: sort ascending, remove one element with `splice()`, then use `slice()` to print a subarray.
+
+---

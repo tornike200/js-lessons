@@ -57,3 +57,76 @@ console.log(adults);
 ```
 
 ---
+
+## Exercise 6 - some() Check
+
+```js
+const temperatures = [22, 24, 18, 31, 27];
+const hasHotDay = temperatures.some((temp) => temp > 30);
+console.log(hasHotDay); // true
+```
+
+---
+
+## Exercise 7 - every() Check
+
+```js
+const amounts = [12, 8, 20, 5];
+const allPositive = amounts.every((amount) => amount > 0);
+console.log(allPositive); // true
+```
+
+---
+
+## Exercise 8 - includes() Check
+
+```js
+const roles = ["admin", "editor", "user"];
+console.log(roles.includes("editor")); // true
+console.log(roles.includes("guest")); // false
+```
+
+---
+
+## Exercise 9 - findIndex() Example
+
+```js
+const marks = [55, 72, 81, 49, 90];
+const firstFailIndex = marks.findIndex((mark) => mark < 50);
+console.log(firstFailIndex); // 3
+```
+
+---
+
+## Exercise 10 - Chaining Methods
+
+```js
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const finalValue = numbers
+  .filter((num) => num % 2 === 0)
+  .map((num) => num * 10)
+  .reduce((acc, num) => acc + num, 0);
+
+console.log(finalValue); // 120
+```
+
+---
+
+## Exercise 11 - sort(), slice(), splice()
+
+```js
+const values = [14, 3, 27, 9, 18];
+
+const sorted = [...values].sort((a, b) => a - b);
+console.log(sorted); // [3, 9, 14, 18, 27]
+
+const middle = sorted.slice(1, 4);
+console.log(middle); // [9, 14, 18]
+
+const copy = [...values];
+copy.splice(2, 1, 100);
+console.log(copy); // [14, 3, 100, 9, 18]
+```
+
+---
