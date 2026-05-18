@@ -107,3 +107,9 @@ const chainedResult = numbers4
   .reduce((acc, num) => acc + num, 0);
 
 console.log(chainedResult);
+
+let name = "giorgi";
+
+console.log(name);
+
+console.log(name.toUpperCase());

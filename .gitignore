@@ -1,0 +1,12 @@
+# Teacher-only materials (keep out of student-facing repo)
+**/teacher.md
+**/*teacher*.md
+
+# Answer keys (hide from student-facing repo)
+**/solutions.md
+**/*solution*.md
+
+# Copilot configuration
+copilot-instructions.md
+
+
