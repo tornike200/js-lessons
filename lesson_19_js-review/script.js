@@ -317,4 +317,32 @@ async function deleteUSerById(id) {
 
 deleteUSerById(1);
 
- 
+const background = document.querySelector(".background");
+
+window.addEventListener("mousemove", (e) => {
+  const x = (window.innerWidth / 2 - e.clientX) / 40;
+  const y = (window.innerHeight / 2 - e.clientY) / 40;
+
+  background.style.transform = `translate(${x}px, ${y}px)`;
+});
+
+// Trolls are attacking your comment section!
+// A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+// Your task is to write a function that takes a string and return a new string with all vowels removed.
+// For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+// Note: for this kata y isn't considered a vowel.
+
+const str =
+  "A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.";
+
+const vowels = ["a", "o", "u", "e", "i"];
+
+function disemvowel(str) {
+  const arryStr = str.split("");
+
+  const formatedStr = arryStr.filter((char) => !vowels.includes(char.toLowerCase()));
+
+  console.log(formatedStr.join(""));
+}
+
+disemvowel(str);
