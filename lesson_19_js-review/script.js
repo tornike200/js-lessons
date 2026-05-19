@@ -101,3 +101,175 @@ let name1 = "tina";
 let name2 = "nina";
 
 console.log(name1 == name2 ? "equals" : "not equals");
+
+// https://www.w3schools.com/js/js_loops.asp
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+console.log("################################");
+
+let n = 0;
+
+while (n < 10) {
+  console.log(n);
+
+  n++;
+}
+
+// https://www.w3schools.com/js/js_function_intro.asp
+function sumOfTwoNum(param1, param2) {
+  return param1 + param2;
+}
+
+let result = sumOfTwoNum(2, 5);
+
+console.log("result is " + result);
+
+// const sum = (num1, num2) => {
+//   return num1 + num2;
+// };
+
+// let result2 = sum(20, 7);
+// console.log(result2);
+
+const sum = (num1, num2) => num1 + num2;
+
+let result2 = sum(20, 7);
+
+console.log(result2);
+
+//              0         1       2       3...     4
+let names = ["giorgi", "ilia", "dachi", "nana", "tamari"];
+
+console.log(names[3]);
+console.log(names.length);
+
+names.push("mzia");
+names.unshift("aleko");
+
+let lasIndex = names.length - 1;
+console.log(names[lasIndex]);
+console.log(names[0]);
+
+// https://www.w3schools.com/js/js_strings.asp
+//          01234
+let city = "tbilisi";
+let regioni = " iMeReti ";
+
+console.log(city.length);
+
+console.log(city[0]);
+
+console.log(city.split("").reverse().join(""));
+
+console.log(city.toUpperCase());
+
+console.log(regioni + " " + city);
+console.log(`${regioni} ${city}`);
+console.log(regioni.concat(" ", city));
+
+console.log(city.slice(1, 4));
+console.log(city.substring(1, 4));
+
+console.log(regioni.length);
+regioni = regioni.trim().toLowerCase();
+console.log(regioni.length);
+console.log(regioni);
+
+console.log(city.indexOf("i"));
+console.log(city.lastIndexOf("i"));
+
+console.log(city.includes("o"));
+
+let count = 0;
+for (let i = 0; i < city.length; i++) {
+  if (city[i] == "i") count++;
+}
+
+console.log(count);
+
+console.log(city.startsWith("tb"));
+console.log(city.endsWith("uh"));
+
+const user1 = {
+  name: "emzari",
+  surname: "managadze",
+
+  greet: function () {
+    console.log(`hi i am ${this.name}`);
+  },
+};
+
+console.log(user1.name);
+console.log(user1["surname"]);
+user1.email = "test@gmail.com";
+
+console.log(user1);
+
+user1.greet();
+
+const users = ["gia", "nodari", "tamila", "tina", "temuri"];
+
+for (let name of users) {
+  console.log(name);
+}
+
+for (let key in user1) {
+  console.log(key);
+}
+
+const uppercase = [];
+
+users.forEach((user) => {
+  uppercase.push(user.toUpperCase());
+});
+
+const updatedUSers = users.map((user) => {
+  return user.toUpperCase();
+});
+
+console.log(uppercase);
+console.log(updatedUSers);
+
+const filteredUsers = users.filter((user) => {
+  return user.startsWith("t");
+});
+
+console.log(filteredUsers);
+
+const wantedUser = users.find((user) => {
+  return user.includes("g");
+});
+
+console.log(wantedUser);
+
+const API_URL = "https://jsonplaceholder.typicode.com/posts";
+
+// fetch(API_URL, { method: "GET" })
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   });
+
+async function getPosts() {
+  const respose = await fetch(API_URL, { method: "GET" });
+
+  const data = await respose.json();
+
+  console.log(data);
+}
+
+getPosts();
+
+async function getPostById(id) {
+  const response = await fetch(API_URL + "/" + id, { method: "GET" });
+
+  const data = await response.json();
+
+  console.log(data);
+}
+
+getPostById(1);
