@@ -273,3 +273,48 @@ async function getPostById(id) {
 }
 
 getPostById(1);
+
+const newPost = {
+  userId: 102,
+  title: "new post",
+  body: "this is a new post body",
+};
+
+async function createNewPost(post) {
+  const response = await fetch(API_URL, {
+    method: "POST",
+    headers: { "Content-type": "application/json" },
+    body: JSON.stringify(post),
+  });
+
+  const result = await response.json();
+  console.log(result);
+}
+
+createNewPost(newPost);
+
+async function updatePostById(id, post) {
+  const response = await fetch(API_URL + "/" + id, {
+    method: "PUT",
+    headers: { "Content-type": "application/json" },
+    body: JSON.stringify(post),
+  });
+
+  const result = await response.json();
+
+  console.log(result);
+}
+
+updatePostById(1, newPost);
+
+async function deleteUSerById(id) {
+  const response = await fetch(API_URL + "/" + id, { method: "DELETE" });
+
+  const result = await response.json();
+
+  console.log(result);
+}
+
+deleteUSerById(1);
+
+ 
