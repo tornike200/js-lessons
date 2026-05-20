@@ -1,348 +1,363 @@
-// https://www.w3schools.com/js/js_syntax.asp
-// https://www.w3schools.com/js/js_statements.asp
-// https://www.w3schools.com/js/js_variables.asp
-// https://www.w3schools.com/js/js_let.asp
-// https://www.w3schools.com/js/js_const.asp
-// https://www.w3schools.com/js/js_types.asp
+// // https://www.w3schools.com/js/js_syntax.asp
+// // https://www.w3schools.com/js/js_statements.asp
+// // https://www.w3schools.com/js/js_variables.asp
+// // https://www.w3schools.com/js/js_let.asp
+// // https://www.w3schools.com/js/js_const.asp
+// // https://www.w3schools.com/js/js_types.asp
 
-// ცვლადის შექმის 3 გზა
-// let
-// const
-// var
+// // ცვლადის შექმის 3 გზა
+// // let
+// // const
+// // var
 
-let age = 12;
-let name = "Tevdore";
-let isStudent = true;
-let notExists = null;
-let notDefined = undefined;
+// let age = 12;
+// let name = "Tevdore";
+// let isStudent = true;
+// let notExists = null;
+// let notDefined = undefined;
 
-//           0  1  2  3 ...
-let array = [1, 3, 4, 5, 6, 7, "zaza", true, [2, 3, 4, 5], { age: 12 }];
+// //           0  1  2  3 ...
+// let array = [1, 3, 4, 5, 6, 7, "zaza", true, [2, 3, 4, 5], { age: 12 }];
 
-//            key     value
-let user = {
-  name: "giorgi",
-  surname: "zaridze",
-  myFunc: function () {
-    console.log("hi");
-  },
-};
-
-console.log(typeof age);
-console.log(typeof name);
-console.log(typeof isStudent);
-console.log(typeof notExists);
-console.log(typeof notDefined);
-
-console.log(array[6]);
-console.log(user.surname);
-user.myFunc();
-
-// let test1 = 2;
-// let test2 = test1;
-// test2 = 12;
-
-// console.log(test1);
-// console.log(test2);
-
-// const user1 = {
-//   name: "marika",
+// //            key     value
+// let user = {
+//   name: "giorgi",
+//   surname: "zaridze",
+//   myFunc: function () {
+//     console.log("hi");
+//   },
 // };
 
-// const user2 = user1;
+// console.log(typeof age);
+// console.log(typeof name);
+// console.log(typeof isStudent);
+// console.log(typeof notExists);
+// console.log(typeof notDefined);
 
-// user2.name = "nugzari";
+// console.log(array[6]);
+// console.log(user.surname);
+// user.myFunc();
 
-// console.log(user1);
-// console.log(user2);
+// // let test1 = 2;
+// // let test2 = test1;
+// // test2 = 12;
 
-// https://www.w3schools.com/js/js_operators.asp
+// // console.log(test1);
+// // console.log(test2);
 
-// +, -, =, *, /, %, **, ++, --
+// // const user1 = {
+// //   name: "marika",
+// // };
 
-// > , < , ==, ===, !, !=, !==, >=, <=
+// // const user2 = user1;
 
-// =, +=, -=, *=, /=, **=
+// // user2.name = "nugzari";
 
-console.log(12 == "12");
-console.log(12 === "12");
+// // console.log(user1);
+// // console.log(user2);
 
-// let age1 = 12;
-// let age2 = "12";
+// // https://www.w3schools.com/js/js_operators.asp
 
-// console.log(age1 !== age2);
+// // +, -, =, *, /, %, **, ++, --
 
-let num = 12;
-// num **= 2;
+// // > , < , ==, ===, !, !=, !==, >=, <=
 
-console.log(Math.sqrt(num));
-// console.log(num);
+// // =, +=, -=, *=, /=, **=
 
-// https://www.w3schools.com/js/js_if.asp
-let isGirl = true;
+// console.log(12 == "12");
+// console.log(12 === "12");
 
-if (isGirl) {
-  console.log("hi i am a girl");
-}
+// // let age1 = 12;
+// // let age2 = "12";
 
-let num1 = 20;
-let num2 = 90;
+// // console.log(age1 !== age2);
 
-if (num1 > num2) {
-  console.log("num1 is greater than num2");
-} else if (num1 < num2) {
-  console.log("num2 is greater than num1");
-} else {
-  console.log("num1 equals num2");
-}
+// let num = 12;
+// // num **= 2;
 
-// https://www.w3schools.com/js/js_if_ternary.asp
-let name1 = "tina";
-let name2 = "nina";
+// console.log(Math.sqrt(num));
+// // console.log(num);
 
-console.log(name1 == name2 ? "equals" : "not equals");
+// // https://www.w3schools.com/js/js_if.asp
+// let isGirl = true;
 
-// https://www.w3schools.com/js/js_loops.asp
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
+// if (isGirl) {
+//   console.log("hi i am a girl");
+// }
 
-console.log("################################");
+// let num1 = 20;
+// let num2 = 90;
 
-let n = 0;
+// if (num1 > num2) {
+//   console.log("num1 is greater than num2");
+// } else if (num1 < num2) {
+//   console.log("num2 is greater than num1");
+// } else {
+//   console.log("num1 equals num2");
+// }
 
-while (n < 10) {
-  console.log(n);
+// // https://www.w3schools.com/js/js_if_ternary.asp
+// let name1 = "tina";
+// let name2 = "nina";
 
-  n++;
-}
+// console.log(name1 == name2 ? "equals" : "not equals");
 
-// https://www.w3schools.com/js/js_function_intro.asp
-function sumOfTwoNum(param1, param2) {
-  return param1 + param2;
-}
+// // https://www.w3schools.com/js/js_loops.asp
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
 
-let result = sumOfTwoNum(2, 5);
+// console.log("################################");
 
-console.log("result is " + result);
+// let n = 0;
 
-// const sum = (num1, num2) => {
-//   return num1 + num2;
-// };
+// while (n < 10) {
+//   console.log(n);
+
+//   n++;
+// }
+
+// // https://www.w3schools.com/js/js_function_intro.asp
+// function sumOfTwoNum(param1, param2) {
+//   return param1 + param2;
+// }
+
+// let result = sumOfTwoNum(2, 5);
+
+// console.log("result is " + result);
+
+// // const sum = (num1, num2) => {
+// //   return num1 + num2;
+// // };
+
+// // let result2 = sum(20, 7);
+// // console.log(result2);
+
+// const sum = (num1, num2) => num1 + num2;
 
 // let result2 = sum(20, 7);
+
 // console.log(result2);
 
-const sum = (num1, num2) => num1 + num2;
+// //              0         1       2       3...     4
+// let names = ["giorgi", "ilia", "dachi", "nana", "tamari"];
 
-let result2 = sum(20, 7);
+// console.log(names[3]);
+// console.log(names.length);
 
-console.log(result2);
+// names.push("mzia");
+// names.unshift("aleko");
 
-//              0         1       2       3...     4
-let names = ["giorgi", "ilia", "dachi", "nana", "tamari"];
+// let lasIndex = names.length - 1;
+// console.log(names[lasIndex]);
+// console.log(names[0]);
 
-console.log(names[3]);
-console.log(names.length);
+// // https://www.w3schools.com/js/js_strings.asp
+// //          01234
+// let city = "tbilisi";
+// let regioni = " iMeReti ";
 
-names.push("mzia");
-names.unshift("aleko");
+// console.log(city.length);
 
-let lasIndex = names.length - 1;
-console.log(names[lasIndex]);
-console.log(names[0]);
+// console.log(city[0]);
 
-// https://www.w3schools.com/js/js_strings.asp
-//          01234
-let city = "tbilisi";
-let regioni = " iMeReti ";
+// console.log(city.split("").reverse().join(""));
 
-console.log(city.length);
+// console.log(city.toUpperCase());
 
-console.log(city[0]);
+// console.log(regioni + " " + city);
+// console.log(`${regioni} ${city}`);
+// console.log(regioni.concat(" ", city));
 
-console.log(city.split("").reverse().join(""));
+// console.log(city.slice(1, 4));
+// console.log(city.substring(1, 4));
 
-console.log(city.toUpperCase());
+// console.log(regioni.length);
+// regioni = regioni.trim().toLowerCase();
+// console.log(regioni.length);
+// console.log(regioni);
 
-console.log(regioni + " " + city);
-console.log(`${regioni} ${city}`);
-console.log(regioni.concat(" ", city));
+// console.log(city.indexOf("i"));
+// console.log(city.lastIndexOf("i"));
 
-console.log(city.slice(1, 4));
-console.log(city.substring(1, 4));
+// console.log(city.includes("o"));
 
-console.log(regioni.length);
-regioni = regioni.trim().toLowerCase();
-console.log(regioni.length);
-console.log(regioni);
+// let count = 0;
+// for (let i = 0; i < city.length; i++) {
+//   if (city[i] == "i") count++;
+// }
 
-console.log(city.indexOf("i"));
-console.log(city.lastIndexOf("i"));
+// console.log(count);
 
-console.log(city.includes("o"));
+// console.log(city.startsWith("tb"));
+// console.log(city.endsWith("uh"));
 
-let count = 0;
-for (let i = 0; i < city.length; i++) {
-  if (city[i] == "i") count++;
-}
+// const user1 = {
+//   name: "emzari",
+//   surname: "managadze",
 
-console.log(count);
+//   greet: function () {
+//     console.log(`hi i am ${this.name}`);
+//   },
+// };
 
-console.log(city.startsWith("tb"));
-console.log(city.endsWith("uh"));
+// console.log(user1.name);
+// console.log(user1["surname"]);
+// user1.email = "test@gmail.com";
 
-const user1 = {
-  name: "emzari",
-  surname: "managadze",
+// console.log(user1);
 
-  greet: function () {
-    console.log(`hi i am ${this.name}`);
-  },
-};
+// user1.greet();
 
-console.log(user1.name);
-console.log(user1["surname"]);
-user1.email = "test@gmail.com";
+// const users = ["gia", "nodari", "tamila", "tina", "temuri"];
 
-console.log(user1);
+// for (let name of users) {
+//   console.log(name);
+// }
 
-user1.greet();
+// for (let key in user1) {
+//   console.log(key);
+// }
 
-const users = ["gia", "nodari", "tamila", "tina", "temuri"];
+// const uppercase = [];
 
-for (let name of users) {
-  console.log(name);
-}
+// users.forEach((user) => {
+//   uppercase.push(user.toUpperCase());
+// });
 
-for (let key in user1) {
-  console.log(key);
-}
+// const updatedUSers = users.map((user) => {
+//   return user.toUpperCase();
+// });
 
-const uppercase = [];
+// console.log(uppercase);
+// console.log(updatedUSers);
 
-users.forEach((user) => {
-  uppercase.push(user.toUpperCase());
-});
+// const filteredUsers = users.filter((user) => {
+//   return user.startsWith("t");
+// });
 
-const updatedUSers = users.map((user) => {
-  return user.toUpperCase();
-});
+// console.log(filteredUsers);
 
-console.log(uppercase);
-console.log(updatedUSers);
+// const wantedUser = users.find((user) => {
+//   return user.includes("g");
+// });
 
-const filteredUsers = users.filter((user) => {
-  return user.startsWith("t");
-});
+// console.log(wantedUser);
 
-console.log(filteredUsers);
+// const API_URL = "https://jsonplaceholder.typicode.com/posts";
 
-const wantedUser = users.find((user) => {
-  return user.includes("g");
-});
+// // fetch(API_URL, { method: "GET" })
+// //   .then((response) => {
+// //     return response.json();
+// //   })
+// //   .then((data) => {
+// //     console.log(data);
+// //   });
 
-console.log(wantedUser);
+// async function getPosts() {
+//   const respose = await fetch(API_URL, { method: "GET" });
 
-const API_URL = "https://jsonplaceholder.typicode.com/posts";
+//   const data = await respose.json();
 
-// fetch(API_URL, { method: "GET" })
-//   .then((response) => {
-//     return response.json();
-//   })
-//   .then((data) => {
-//     console.log(data);
+//   console.log(data);
+// }
+
+// getPosts();
+
+// async function getPostById(id) {
+//   const response = await fetch(API_URL + "/" + id, { method: "GET" });
+
+//   const data = await response.json();
+
+//   console.log(data);
+// }
+
+// getPostById(1);
+
+// const newPost = {
+//   userId: 102,
+//   title: "new post",
+//   body: "this is a new post body",
+// };
+
+// async function createNewPost(post) {
+//   const response = await fetch(API_URL, {
+//     method: "POST",
+//     headers: { "Content-type": "application/json" },
+//     body: JSON.stringify(post),
 //   });
 
-async function getPosts() {
-  const respose = await fetch(API_URL, { method: "GET" });
+//   const result = await response.json();
+//   console.log(result);
+// }
 
-  const data = await respose.json();
+// createNewPost(newPost);
 
-  console.log(data);
-}
+// async function updatePostById(id, post) {
+//   const response = await fetch(API_URL + "/" + id, {
+//     method: "PUT",
+//     headers: { "Content-type": "application/json" },
+//     body: JSON.stringify(post),
+//   });
 
-getPosts();
+//   const result = await response.json();
 
-async function getPostById(id) {
-  const response = await fetch(API_URL + "/" + id, { method: "GET" });
+//   console.log(result);
+// }
 
-  const data = await response.json();
+// updatePostById(1, newPost);
 
-  console.log(data);
-}
+// async function deleteUSerById(id) {
+//   const response = await fetch(API_URL + "/" + id, { method: "DELETE" });
 
-getPostById(1);
+//   const result = await response.json();
 
-const newPost = {
-  userId: 102,
-  title: "new post",
-  body: "this is a new post body",
-};
+//   console.log(result);
+// }
 
-async function createNewPost(post) {
-  const response = await fetch(API_URL, {
-    method: "POST",
-    headers: { "Content-type": "application/json" },
-    body: JSON.stringify(post),
-  });
-
-  const result = await response.json();
-  console.log(result);
-}
-
-createNewPost(newPost);
-
-async function updatePostById(id, post) {
-  const response = await fetch(API_URL + "/" + id, {
-    method: "PUT",
-    headers: { "Content-type": "application/json" },
-    body: JSON.stringify(post),
-  });
-
-  const result = await response.json();
-
-  console.log(result);
-}
-
-updatePostById(1, newPost);
-
-async function deleteUSerById(id) {
-  const response = await fetch(API_URL + "/" + id, { method: "DELETE" });
-
-  const result = await response.json();
-
-  console.log(result);
-}
-
-deleteUSerById(1);
+// deleteUSerById(1);
 
 const background = document.querySelector(".background");
 
 window.addEventListener("mousemove", (e) => {
-  const x = (window.innerWidth / 2 - e.clientX) / 40;
-  const y = (window.innerHeight / 2 - e.clientY) / 40;
+  const x = (window.innerWidth / 2 - e.clientX) / 10;
+  const y = (window.innerHeight / 2 - e.clientY) / 10;
 
   background.style.transform = `translate(${x}px, ${y}px)`;
 });
 
-// Trolls are attacking your comment section!
-// A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
-// Your task is to write a function that takes a string and return a new string with all vowels removed.
-// For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
-// Note: for this kata y isn't considered a vowel.
+// // Trolls are attacking your comment section!
+// // A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+// // Your task is to write a function that takes a string and return a new string with all vowels removed.
+// // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+// // Note: for this kata y isn't considered a vowel.
 
-const str =
-  "A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.";
+// const str =
+//   "A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.";
 
-const vowels = ["a", "o", "u", "e", "i"];
+// const vowels = ["a", "o", "u", "e", "i"];
 
-function disemvowel(str) {
-  const arryStr = str.split("");
+// function disemvowel(str) {
+//   const arryStr = str.split("");
 
-  const formatedStr = arryStr.filter((char) => !vowels.includes(char.toLowerCase()));
+//   const formatedStr = arryStr.filter((char) => !vowels.includes(char.toLowerCase()));
 
-  console.log(formatedStr.join(""));
-}
+//   console.log(formatedStr.join(""));
+// }
 
-disemvowel(str);
+// disemvowel(str);
+
+// let count = 1;
+// const myInterval = setInterval(() => {
+//   console.log(`this is interval ${count++}`);
+
+//   if (count > 10) clearInterval(myInterval);
+// }, 2000);
+
+setTimeout(() => {
+  document.querySelector(".box").classList.remove("hidden");
+}, 5000);
+
+document.querySelector(".close").addEventListener("click", () => {
+  document.querySelector(".box").classList.add("hidden");
+});
