@@ -361,3 +361,17 @@ setTimeout(() => {
 document.querySelector(".close").addEventListener("click", () => {
   document.querySelector(".box").classList.add("hidden");
 });
+
+const products = ["ვაშლი", "მსხალი", "ატამი", "საზამთრო", "მარწყვი"];
+
+const productList = document.querySelector(".products-list");
+
+const result = products
+  .map((prod) => {
+    return `<li> ${prod} </li>`;
+  })
+  .join("");
+
+productList.innerHTML = result;
+
+console.log(result);
